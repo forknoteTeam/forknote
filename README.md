@@ -22,8 +22,34 @@ https://github.com/forknote/cryptonote-generator/blob/master/configure.sh
 ./forknoted --config-file PATH_TO_YOUR_CONFIG
 ```
 
-### Configuration parameters
-Use http://forknote.net to create configuration files.
+### ICO Funding and Coin Purchase
+ICO funding ADDRESS
+BTC
+3BGusyERzBf5uiDdTFQdqQCFYUFUrig2iz
+
+ETH
+0xef8f69d6fab5e83806bcd9a208462a5af238a3fb
+
+BCC
+19BFvMqAoZDmwRFyHctYVtZaNyLcjsAZTt
+
+DASH
+XeEEhiKGixZw1eTy3phSvkwZ8KXrup5hxQ
+
+ZEC
+t1Y7y1QxQDaxbtpsrDZp8uPZpKnQKy72sUb
+
+XMR
+41quKNZo1zATiNubhhJMxkBqmb3fBARW7EviGvButzQSc4EMVGL6RmUjXqrT3anyZ22j7DEE74GkbVc QFyH2nNiC3cuEc2u
+
+To participate follow the instructions below
+
+1. Send your funding source to any address above at .03 USD per (ETN) you wish to purchase.
+For reference use BTC converter
+
+2. Email use at electroneumcoin@webname.com your transaction send and we will reply back with your (ETN) wallet address and confirmation
+transaction hash for Cryptonote (ETN) along with import keys to use with your (ETN) wallet
+
 
 All fields supported:
 ```
