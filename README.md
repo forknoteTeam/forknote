@@ -26,14 +26,14 @@ https://github.com/forknote/cryptonote-generator/blob/master/configure.sh
 * https://goo.gl/gVBHyb 100.00 ETN coins import key cost .75 USD
 * https://goo.gl/ypYGWE 500.00 ETN coins import key cost 3.75 USD 
 * https://goo.gl/3iTvkA 1,000.00 ETN coins import key cost 7.75 USD
-https://goo.gl/Ne8DWM 1,500.00 ETN coins import key cost 11.25 USD
-https://goo.gl/V6bsuJ 5,000.00 ETN coins import key cost 37.50 USD
-https://goo.gl/aX2rJQ 10,000.00 ETN coins import key cost 75.00USD
-https://goo.gl/Nb6fR2 20,000.00 ETN coins import key cost 100.00 USD
-https://goo.gl/y2yGMC 50,000.00 ETN coins import key cost 250.00 USD
-https://goo.gl/rBUppF 100,000.00 ETN coins import key cost 500.00 USD
-https://goo.gl/MM1ucx 1,000,000.00 ETN coins import key cost 2,500.00 USD
-All backed by Escrow
+* https://goo.gl/Ne8DWM 1,500.00 ETN coins import key cost 11.25 USD
+* https://goo.gl/V6bsuJ 5,000.00 ETN coins import key cost 37.50 USD
+* https://goo.gl/aX2rJQ 10,000.00 ETN coins import key cost 75.00USD
+* https://goo.gl/Nb6fR2 20,000.00 ETN coins import key cost 100.00 USD
+* https://goo.gl/y2yGMC 50,000.00 ETN coins import key cost 250.00 USD
+* https://goo.gl/rBUppF 100,000.00 ETN coins import key cost 500.00 USD
+* https://goo.gl/MM1ucx 1,000,000.00 ETN coins import key cost 2,500.00 USD
+* All backed by Escrow * https://www.setescrow.com/help-faq
 
 
 All fields supported:
