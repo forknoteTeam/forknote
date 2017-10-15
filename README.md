@@ -17,9 +17,9 @@ https://github.com/forknote/cryptonote-generator/blob/master/configure.sh
 ### Usage
 1. Download or compile the binaries
 2. Use forknotecoin.conf configuration file.
-3. Start the daemon: ./forknoted --config-file configs/forknotecoin.conf
+3. Start the daemon: forknoted --config-file configs/forknotecoin.conf from command line
 4. Allow block chain to fully sync and leave open before launch of simplewallet
-5. Start the simplewallet: ./simplewallet --config-file configs/forknotecoin.conf
+5. Start the simplewallet: simplewallet --config-file configs/forknotecoin.conf from command line
 6. Simplewallet options
 7. [O]pen existing wallet, [G]enerate new wallet file, [I]mport wallet or [E]xit.
 8. To use [I]mport wallet option you will need to have "Spend secret key" and "View secret key"
