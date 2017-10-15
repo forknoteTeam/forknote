@@ -15,15 +15,18 @@ https://github.com/forknote/cryptonote-generator/blob/master/configure.sh
 
 
 ### Usage
-1. Download or compile the binaries
-2. Use forknotecoin.conf configuration file.
-3. Start the daemon: forknoted --config-file configs/forknotecoin.conf from command line or create .forknoted.bat file
-4. Allow block chain to fully sync and leave open before launch of simplewallet
-5. Start the simplewallet: simplewallet --config-file configs/forknotecoin.conf from command line or create simplewallet.bat file
-6. Simplewallet options
-7. [O]pen existing wallet, [G]enerate new wallet file, [I]mport wallet or [E]xit.
-8. To use [I]mport wallet option you will need to have "Spend secret key" and "View secret key"
-9. To transfer coins: use "transfer" command
+0. Download http://forknote.net/download/ or compile the binaries
+* To use forknotecoin.conf
+1. Create New folder and rename configs
+2. create forknotecoin.conf using the parameters below and save as forknotecoin.conf
+3. Use forknotecoin.conf configuration file.
+4. Start the daemon: forknoted --config-file configs/forknotecoin.conf from command line or create .forknoted.bat file
+5. Allow block chain to fully sync and leave open before launch of simplewallet
+6. Start the simplewallet: simplewallet --config-file configs/forknotecoin.conf from command line or create simplewallet.bat file
+7. Simplewallet options
+8. [O]pen existing wallet, [G]enerate new wallet file, [I]mport wallet or [E]xit.
+9. To use [I]mport wallet option you will need to have "Spend secret key" and "View secret key"
+10. To transfer coins: use "transfer" command
 * [uint] mixin_count (number of transaction to mix your with from 0-4)
 * [string] address (receiving party wallet address)
 * [double] amount (amount of coins to send)
@@ -39,7 +42,7 @@ b) transfer 0 Ftwkidoisij 10 -p 475iuoj -f .001
 c) transfer 0 Ftwkidoisij 10 -p 475iuoj Ftwieojfso 30 -p 7364rjfuiei-f .1
 * will transfer 10 coins to address Ftwkidoisij with ID 475iuoj and 30 coins to Ftwieojfso
 
-10. Solo mining using CPU
+11. Solo mining using CPU
 * miner --daemon-address localhost:43302 --address yourwalletaddresshere --threads 4 --log-level 5 from command line or create miner.bat file
 * --threads 4 (max number of CPUs to use)
 * --log-level 5 (can be set 1-5)
@@ -49,7 +52,9 @@ Always close both simplewallet and daemon using "exit" command
 ```
 
 ### Configuration parameters
-Use forknotecoin.conf.
+To use forknotecoin.conf
+1. Create New folder and rename configs
+2. create forknotecoin.conf using the parameters below and save as forknotecoin.conf
 
 forknotecoin.conf:
 ```
