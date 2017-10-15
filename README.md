@@ -17,9 +17,9 @@ https://github.com/forknote/cryptonote-generator/blob/master/configure.sh
 ### Usage
 1. Download or compile the binaries
 2. Use forknotecoin.conf configuration file.
-3. Start the daemon: forknoted --config-file configs/forknotecoin.conf from command line or create bat file
+3. Start the daemon: forknoted --config-file configs/forknotecoin.conf from command line or create .forknoted.bat file
 4. Allow block chain to fully sync and leave open before launch of simplewallet
-5. Start the simplewallet: simplewallet --config-file configs/forknotecoin.conf from command line or create .bat file
+5. Start the simplewallet: simplewallet --config-file configs/forknotecoin.conf from command line or create simplewallet.bat file
 6. Simplewallet options
 7. [O]pen existing wallet, [G]enerate new wallet file, [I]mport wallet or [E]xit.
 8. To use [I]mport wallet option you will need to have "Spend secret key" and "View secret key"
@@ -40,7 +40,7 @@ c) transfer 0 Ftwkidoisij 10 -p 475iuoj Ftwieojfso 30 -p 7364rjfuiei-f .1
 * will transfer 10 coins to address Ftwkidoisij with ID 475iuoj and 30 coins to Ftwieojfso
 
 10. Solo mining using CPU
-* miner --daemon-address localhost:43302 --address yourwalletaddresshere --threads 4 --log-level 5 from command line or create .bat file
+* miner --daemon-address localhost:43302 --address yourwalletaddresshere --threads 4 --log-level 5 from command line or create miner.bat file
 * --threads 4 (max number of CPUs to use)
 * --log-level 5 (can be set 1-5)
 
