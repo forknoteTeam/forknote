@@ -24,17 +24,17 @@ https://github.com/forknote/cryptonote-generator/blob/master/configure.sh
 7. [O]pen existing wallet, [G]enerate new wallet file, [I]mport wallet or [E]xit.
 8. To use [I]mport wallet option you will need to have "Spend secret key" and "View secret key"
 9. To transfer coins: use "transfer" command
-[uint] mixin_count (number of transaction to mix your with)
-[string] address (receiving party wallet address)
-[double] amount (amount of coins to send)
-[string] -p payment_id (unique ID "optional")
-[double] -f fee (amount of fee to spend sending tx "optional")
-example:
-transfer 0 Ftwkidoisij 10
-will transfer 10 coins to address Ftwkidoisij
+* [uint] mixin_count (number of transaction to mix your with)
+* [string] address (receiving party wallet address)
+* [double] amount (amount of coins to send)
+* [string] -p payment_id (unique ID "optional")
+* [double] -f fee (amount of fee to spend sending tx "optional")
+* example:
+* transfer 0 Ftwkidoisij 10
+* will transfer 10 coins to address Ftwkidoisij
 
-transfer 0 Ftwkidoisij 10 -p 475iuoj -f .001
-will transfer 10 coins to address Ftwkidoisij with ID 475iuoj
+* transfer 0 Ftwkidoisij 10 -p 475iuoj -f .001
+* will transfer 10 coins to address Ftwkidoisij with ID 475iuoj
 
 ```
 ./forknoted --config-file PATH_TO_YOUR_CONFIG
