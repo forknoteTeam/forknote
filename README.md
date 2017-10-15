@@ -24,7 +24,7 @@ https://github.com/forknote/cryptonote-generator/blob/master/configure.sh
 7. [O]pen existing wallet, [G]enerate new wallet file, [I]mport wallet or [E]xit.
 8. To use [I]mport wallet option you will need to have "Spend secret key" and "View secret key"
 9. To transfer coins: use "transfer" command
-* [uint] mixin_count (number of transaction to mix your with)
+* [uint] mixin_count (number of transaction to mix your with from 0-4)
 * [string] address (receiving party wallet address)
 * [double] amount (amount of coins to send)
 * [string] -p payment_id (unique ID "optional")
@@ -38,6 +38,11 @@ b) transfer 0 Ftwkidoisij 10 -p 475iuoj -f .001
 
 c) transfer 0 Ftwkidoisij 10 -p 475iuoj Ftwieojfso 30 -p 7364rjfuiei-f .1
 * will transfer 10 coins to address Ftwkidoisij with ID 475iuoj and 30 coins to Ftwieojfso
+
+10. Solo mining using CPU
+* miner --daemon-address localhost:43302 --address yourwalletaddresshere --threads 4 --log-level 5
+* --threads 4 (max number of CPUs to use)
+* --log-level 5 (can be set 1-5)
 
 ```
 Always close both simplewallet and daemon using "exit" command
