@@ -40,7 +40,7 @@ c) transfer 0 Ftwkidoisij 10 -p 475iuoj Ftwieojfso 30 -p 7364rjfuiei-f .1
 * will transfer 10 coins to address Ftwkidoisij with ID 475iuoj and 30 coins to Ftwieojfso
 
 ```
-Always exit both simplewallet and daemon using "exit" command
+Always close both simplewallet and daemon using "exit" command
 ```
 
 ### Configuration parameters
