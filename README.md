@@ -30,10 +30,10 @@ https://github.com/forknote/cryptonote-generator/blob/master/configure.sh
 * [string] -p payment_id (unique ID "optional")
 * [double] -f fee (amount of fee to spend sending tx "optional")
 ###  example:
-a transfer 0 Ftwkidoisij 10
+a) transfer 0 Ftwkidoisij 10
 * will transfer 10 coins to address Ftwkidoisij
 
-b transfer 0 Ftwkidoisij 10 -p 475iuoj -f .001
+b) transfer 0 Ftwkidoisij 10 -p 475iuoj -f .001
 * will transfer 10 coins to address Ftwkidoisij with ID 475iuoj
 
 ```
