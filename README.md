@@ -36,8 +36,11 @@ a) transfer 0 Ftwkidoisij 10
 b) transfer 0 Ftwkidoisij 10 -p 475iuoj -f .001
 * will transfer 10 coins to address Ftwkidoisij with ID 475iuoj
 
+c) transfer 0 Ftwkidoisij 10 -p 475iuoj Ftwieojfso 30 -p 7364rjfuiei-f .1
+* will transfer 10 coins to address Ftwkidoisij with ID 475iuoj and 30 coins to Ftwieojfso
+
 ```
-./forknoted --config-file PATH_TO_YOUR_CONFIG
+Always exit both simplewallet and daemon using "exit" command
 ```
 
 ### Configuration parameters
