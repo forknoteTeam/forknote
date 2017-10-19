@@ -23,6 +23,7 @@ https://github.com/forknote/cryptonote-generator/blob/master/configure.sh
 ```
 
 ### Coin Purchase Options
+Visit http://forknote.site/ico/electroneumETN/buycoin.html or click any  link below
 * https://goo.gl/gVBHyb 100.00 ETN coins import key cost .75 USD
 * https://goo.gl/ypYGWE 500.00 ETN coins import key cost 3.75 USD 
 * https://goo.gl/3iTvkA 1,000.00 ETN coins import key cost 7.75 USD
